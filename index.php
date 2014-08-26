@@ -10,7 +10,7 @@
 class KairosApi
 {
     const APIID ="d839f656";
-    const APIKEY ="feba8edfa1632369de3ab9983fe91f67";
+    const APIKEY ="";
     const APIURL ="http://api.kairos.com/";
 
 
@@ -97,8 +97,8 @@ class KairosApi
 
 function uploadImageToWeb($imageData)
 {
-    $client_id = '634b96c9786f8d4';
-    //ba214c53559d1177c1a5f1db11c01ecf8a0efb1e
+    $client_id = '';
+    
     $url = 'https://api.imgur.com/3/image.json';
 
     $imageData =$imageData;
